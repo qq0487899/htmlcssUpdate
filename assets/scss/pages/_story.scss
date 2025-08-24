@@ -1,0 +1,58 @@
+.header {
+  background-image: url(/assets/images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 152px 0;
+  text-align: center;
+}
+.eng-title {
+  font-size: 28px;
+}
+.quote {
+  border-radius: 12px;
+  text-align: center;
+}
+.section-lined {
+  border-bottom: 1px solid var(--neutral-300);
+}
+ul.timeline {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.timeline li {
+  margin-bottom: 10px;
+}
+.history-desc {
+  border-left: 1px solid var(--neutral-900);
+  padding-left: 8px;
+}
+.concept-item {
+  padding-left: 12px;
+  border-left: 3px solid var(--neutral-300);
+}
+.story-list a {
+  color: var(--primary-400);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.story-list a:hover {
+  color: #3b6e02;
+  text-decoration: none;
+}
+.bi {
+  padding-right: 8px;
+  vertical-align: bottom;
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 87px 0;
+    background-image: url(/assets/images/hero-sm.png);
+  }
+  .eng-title {
+    font-size: 20px;
+  }
+  .quote {
+    text-align: left;
+  }
+}
